@@ -1,0 +1,38 @@
+Developed in vscode using django,
+
+To run clone this repo.
+
+
+    git clone https://github.com/dhuruvasan/commentapp.git
+
+Use virtual env (or) default python with django installed. is not use this commend to install it on Terminal.
+
+    pip install django
+
+next you want to migrate db and models so use this commend to migrate check you are in comment_app folder.
+
+    python manage.py migrate
+
+After migration just run in the manage.py in server to do that use this commend.
+
+    python manage.py runserver
+
+    Watching for file changes with StatReloader
+    Performing system checks...
+
+        System check identified no issues (0 silenced).
+        February 09, 2022 - 12:41:49
+        Django version 3.1.2, using settings 'commentapp.settings'
+        Starting development server at
+        http://127.0.0.1:8000/
+
+go to the server link.
+
+if need To chech database folow this link
+
+        http://127.0.0.1:8000/admin
+
+use username:
+        dhuruvasandh320@gmail.com
+password:
+        dhuruvasan

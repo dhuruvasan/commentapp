@@ -23,7 +23,7 @@
       6. There will be a filter button on click it, the  comment area will show only the
       comments of the logged in user
 
-# Installation
+# Installation And Run
 
 Developed in vscode using django,
 

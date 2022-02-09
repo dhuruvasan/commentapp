@@ -5,8 +5,9 @@
       data will be stored in a Database.
 
       2. Sign-in where the user will be allowed to enter his emailID and password. This
-        data will be sent to the backend where it will be cross-checked with the data
-        available in the database and a proper response is returned to the frontend.
+      data will be sent to the backend where it will be  cross-checked with the data
+      available in the database and a proper response  is returned to the frontend.
+
       3. Forget-password where the user will be allowed to enter the email id and
       secret code. This data will be sent to the  backend and If the data matches with
       any record already in the database then the  password should be shown to the
@@ -43,3 +44,51 @@ After migration just run in the manage.py in server to do that use this commend.
 
         python manage.py runserver
 
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+        February 09, 2022 - 12:41:49
+        Django version 3.1.2, using settings 'commentapp.settings'
+        Starting development server at
+        http://127.0.0.1:8000/
+
+go to the server link.
+
+To chech database folow this link
+
+        http://127.0.0.1:8000/admin
+
+use username:
+
+         dhuruvasandh320@gmail.com
+password:
+
+         dhuruvasan
+
+# Working
+
+sign up page to create a new account has expection handeling
+
+![signup](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(89).png)
+
+sign in page to sign in with authentication and expection handeling
+![signin](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(86).png)
+
+comment page for create and see a comments
+
+![comment page](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(87).png)
+
+only shows the users comments when click filter
+
+![user comment page](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(88).png)
+
+forgot pass word page to enter the email and password
+
+![forgot pass word](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(90).png)
+
+shows password page after verify your secrect code.
+
+![show password](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(91).png)
+
+Thank You ZOHO!

@@ -66,9 +66,9 @@ def signindata(request):
             if password==passs:
                 return redirect("comment/"+iid)
             else:
-                return HttpResponse("GO BACK!!! Please check the name and password you entered and try again GO BACK!!!")
+                return HttpResponse("GO BACK!!! Please check the Email and password you entered and try again GO BACK!!!")
         except:
-            return HttpResponse("GO BACK!!! Please check the name and password you entered and try again GO BACK!!!")
+            return HttpResponse("GO BACK!!! Please check the Email and password you entered and try again GO BACK!!!")
             # return render(request,'signin.html')
 
 def comment(request,id):

@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>comment</title>
+    <title>signin</title>
 </head>
 <body>
     <div class="container">
@@ -21,11 +21,10 @@
                                 </center>
                             </div>
                         </div>
-
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Welcome to comment app</h3>
+                                    <h3>Forgot password</h3>
                                 </center>
                             </div>
                         </div>
@@ -36,39 +35,29 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <form method="post" action="{% url 'commented'%}">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <form method="post" action="forgetpass">
                                     {% csrf_token %}
                                     <div class="form-group">
-                                        <label for="commend">What would you like to share with world?</label>
-                                        <textarea class="form-control" id="comment" name="comment" rows="3" required=""></textarea>
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email Address" required="">
                                     </div>
                                     <div class="form-group">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="hidden" class="form-control" id="id" name="id" value="{{use.id}}" required="">
+                                        <label for="secret code">secret</label>
+                                        <input type="text" class="form-control" id="code" name="code" placeholder="Enter your Secret" required="">
                                     </div>
                                     <br>
+                                    <div  class="row">
+                                        <div class="col-12">
+                                        </div>
+                                    </div>
                                     <center>
-                                    <button type="submit" class="btn btn-primary">Submit</button></center>
+                                    <button type="submit" class="btn-primary btn-lg">Sign In</button></center>
                                 </form>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-9">
-                                <h3 style="font-weight: bold">Comments</h3>
-                            </div>
-                            <div class="col-3"><a href="commendin/{{use.id}}" class="btn btn-primary">Filter</a></div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div style="height:320px;width:620px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-                                {% for i in commd %}
-                                <br>
-                                <div class="row">
-                                <div class="col-6"><h5>{{i.Email}}</h5></div>
-                                <div class="col-6"><textarea row="2">{{i.comment}}</textarea></div></div>
-                                {% endfor %}
+
                             </div>
                         </div>
                     </div>

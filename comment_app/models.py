@@ -1,3 +1,4 @@
+import email
 from django.db import models
 from django.db.models.expressions import F
 from django.db.models.fields import EmailField
@@ -11,3 +12,8 @@ class users(models.Model):
     Email=models.EmailField(max_length=100,unique=True)
     password=models.CharField(max_length=100)
     screct=models.CharField(max_length=100)
+
+class comm(models.Model):
+    idname=models.IntegerField()
+    Email=models.EmailField(max_length=100,default="sample@gmail.com")
+    comment=models.TextField(max_length=1000)

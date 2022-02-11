@@ -37,7 +37,7 @@ Use virtual env (or) default python with django installed. is not use this comme
 
         pip install django
 
-next you want to migrate db and models so use this commend to migrate check you are in comment_app folder.
+next you want to migrate db and models so use this commend to migrate check you are in commentapp folder.
 
         python manage.py migrate
 

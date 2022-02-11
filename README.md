@@ -25,7 +25,9 @@
 
 # Installation And Run
 
-![info]()
+![signup](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(97).png)
+kindly change the settings.py Templates to dirs to the your path of templates (for my it is like('C:\vsc code\zoho projectes\commentapp\comment_app\templates'))
+
 Developed in vscode using django,
 
 To run clone this repo.

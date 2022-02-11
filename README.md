@@ -31,7 +31,7 @@ To run clone this repo.
 
         git clone https://github.com/dhuruvasan/commentapp.git
 
-Use virtual env (or) default python with django installed. is not use this commend to install it on Terminal.
+Use virtual env (or) default python with django installed. use this commend to install it on Terminal.
 
         pip install django
         pip install django_mysql

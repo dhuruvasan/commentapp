@@ -57,7 +57,7 @@ ROOT_URLCONF = 'commentapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\vsc code\zoho projectes\commentapp\comment_app\templates'],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -25,13 +25,9 @@
 
 # Installation And Run
 
-![signup](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(97).png)
-kindly change the settings.py Templates to dirs to the your path of templates (for my it is like('C:\vsc code\zoho projectes\commentapp\comment_app\templates'))
-
 Developed in vscode using django,
 
 To run clone this repo.
-
 
         git clone https://github.com/dhuruvasan/commentapp.git
 
@@ -95,5 +91,9 @@ shows password page after verify your secrect code.
 ![show password](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(91).png)
 
 For better UI. kindly use the application with online connections. because I used bootstrap css and js with online links
+
+Is not work
+![signup](https://raw.githubusercontent.com/dhuruvasan/commentapp/master/outputimg/Screenshot%20(97).png)
+kindly change the settings.py Templates to dirs to the your path of templates (for my it is like('C:\vsc code\zoho projectes\commentapp\comment_app\templates'))
 
 Thank You ZOHO!

@@ -25,6 +25,7 @@
 
 # Installation And Run
 
+![info]()
 Developed in vscode using django,
 
 To run clone this repo.

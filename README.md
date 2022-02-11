@@ -34,6 +34,7 @@ To run clone this repo.
 Use virtual env (or) default python with django installed. is not use this commend to install it on Terminal.
 
         pip install django
+        pip install django_mysql
 
 next you want to migrate db and models so use this commend to migrate check you are in commentapp folder.
 
@@ -60,7 +61,7 @@ To chech database folow this link
 
 use username:
 
-         dhuruvasandh320@gmail.com
+         dhuruvasan
 password:
 
          dhuruvasan

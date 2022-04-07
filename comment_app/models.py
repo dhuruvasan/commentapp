@@ -2,7 +2,6 @@ import email
 from django.db import models
 from django.db.models.expressions import F
 from django.db.models.fields import EmailField
-from django_mysql.models import ListCharField
 from django.contrib.auth.models import User
 from django import forms
 # Create your models here.

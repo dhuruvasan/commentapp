@@ -10,7 +10,8 @@ from django.http import HttpResponse
 from .models import comm, users
 
 # Create your views here.
-
+def homepage(request):
+    return render(request,'homepage.html')
 def home(request):
     return render(request,'index.html')
 

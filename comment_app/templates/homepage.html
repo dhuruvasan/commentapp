@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,39 +7,194 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="top_panel_menu"> 
+        <ul>
+        <li><a href="#index.html" class="current">Home</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li></ul>
+        </div> 
+        
         <style>
-        ul{
-            list-style-type: none;
+        .top_panel_menu{
+            float:left;
+            width: 1000px;
+            height: 30px;
+            background-color: black;
+        }
+        .top_panel_menu ul{
+            float:left;
+            width: 1000px;
             margin:0;
-            padding:0;
-            overflow: hidden;
-            background-color: aqua;
-
+            padding: 7px 0 0 0;
+            list-style: none;
         }
-        li{
-            float: left;
+        .top_panel_menu ul li{
+            display: inline;
         }
-        li a{
-            display: block;
-            color: aliceblue;
+        .top_panel_menu ul li a{
+            padding: 0 25px;
+            font-size: 15px;
+            font-weight:bold;
             text-align: center;
-            padding: 14px 16px;
-            text-decoration-color: black;
+            text-decoration: none;
+            color: #ffffff;
+            border-right: 1px solid #ffffff;
         }
-        li a:hover{
-            background-color: rgb(13, 228, 228);
-
+        .top_panel_menu ul li a:hover, .top_panel_menu ul li .current{
+            color:#ffff01;
+            
         }
-    </style>
-    <ul>
-        <li><b><a class="active" href="#home"></a><b></li>
-        <li><a href="#news">news</a></li>
-        <li class="account">
-            <a href="javascript;void(0)"class></a>
 
-        </li>
-        <li><a href="#contact">contact</a></li>
-        <li><a href="about">about</a></li>
-    </ul>
+           
+        /* Style The Dropdown Button */
+.dropbtn {
+  
+  color: white;
+  padding: 7px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ffff01;
+}
+        </style>
+           
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .h3{
+    text-align: center;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.h3{
+  text-align: center;
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+
+
+
+
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">account</a>
+    <div class="dropdown-content">
+      <a href="#">student</a>
+      <a href="#">bus driver</a>
+      <a href="#">admin</a>
+    </div>
+   
+  </li>
+</ul>
+
+<h3>Bus tracking system</h3>
+
+<p>track where your bus now</p>
+<img src="dine.jpg" alt="backround">
+
 </body>
 </html>
+
